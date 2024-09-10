@@ -65,7 +65,7 @@
 .home-font {
   font-family: var(--font-2);
   color: var(--homeheader-color);
-  font-size: 5rem;
+  font-size: 4rem;
 }
 .home-font1 {
   font-family: var(--font-2);
@@ -198,17 +198,18 @@
     margin-left: 30px;
   }
   .btn-custom {
-    padding: 10px 20px; /* Adjusted padding for tablets */
-    font-size: 13px; /* Slightly smaller font size for tablets */
-    min-width: 200px; /* Adjusted min-width for tablets */
+    padding: 10px 20px;
+    font-size: 13px;
+    min-width: 200px;
   }
   .home-font {
+    font-size: 2.5rem;
     color: var(--about2-color);
   }
-  /* Ensure buttons stack vertically by default on tablets */
+
   .twobuttons {
     flex-direction: column;
-    gap: 16px; /* Space between buttons when stacked */
+    gap: 16px;
   }
   .twobuttons {
     flex-direction: column;
@@ -290,6 +291,17 @@
   .text-loader {
     display: flex;
     justify-content: center;
+  }
+  .ms-1 {
+    margin-right: 60px;
+  }
+  .pre-text {
+    margin-right: 10px;
+  }
+  .hellocontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
 
@@ -459,6 +471,7 @@ h6 {
 }
 .nabar {
   padding-left: 68px;
+  padding-right: 15px;
 }
 .logo {
   padding-right: 50px;
@@ -524,7 +537,7 @@ h6 {
 
   .navmenu ul {
     margin: 0;
-    padding: 0;
+    padding-right: 20px;
     display: flex;
     list-style: none;
     align-items: center;
@@ -540,7 +553,7 @@ h6 {
     padding: 18px 15px;
     font-size: 13px;
     text-transform: uppercase;
-    font-family: var(--nav-font);
+    font-family: var(--font-1);
     font-weight: 400;
     display: flex;
     align-items: center;
@@ -1026,7 +1039,11 @@ section,
   height: auto;
   border-radius: 20px;
 }
-
+.aboutbuttons {
+  bottom: 10px;
+  left: 0;
+  right: 0;
+}
 .header-container {
   position: relative;
   overflow: hidden;
